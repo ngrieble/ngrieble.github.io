@@ -228,7 +228,8 @@ ul.personal-info.contact-form .title:after { top:auto; bottom:-0.5em; left:0; ri
 .social li a.skype:hover { background-color:#00aff0; }
 .social li a.picassa:hover { background-color:#ffd34e; }
 .social li a.youtube:hover { background-color:#c8312b; }
-.social li a.pinterest:hover { background-color:#cb2027; }
+.social li a.pinterest:hover { background-color:#c08d64; }
+.social li a.instagram:hover { background-color:#663A2D; }
 .social li a.tumblr:hover { background-color: #2C4762; }
 .social li a.behance:hover { background-color: #3878F6; }
 .social li a.blogger:hover { background-color: #fc9947; }
@@ -237,9 +238,11 @@ ul.personal-info.contact-form .title:after { top:auto; bottom:-0.5em; left:0; ri
 .social li a.friendfeed:hover { background-color: #2f72c4; }
 .social li a.github:hover { background-color: #000; }
 .social li a.wordpress:hover { background-color: #0083b3; }
-.social li a.pinterest, .social li a.soundcloud { text-indent:-999em; min-width:.84em; background-position: center center; background-repeat: no-repeat; background-size: 30px 30px; }
+.social li a.pinterest, .social li a.soundcloud, .social li a.instagram { text-indent:-999em; min-width:.84em; background-position: center center; background-repeat: no-repeat; background-size: 30px 30px; }
 .social li a.pinterest { background-image:url(../images/bckg/pinterest-icon.png); }
 .social li a.pinterest:hover { background-image:url(../images/bckg/pinterest-icon-light.png); }
+.social li a.instagram { background-image:url(../images/bckg/instagram-icon.png); }
+.social li a.instagram:hover { background-color:#663A2D; background-image:url(../images/bckg/instagram-icon.png); }
 .social li a.soundcloud { background-image:url(../images/bckg/soundcloud-icon.png); }
 .social li a.soundcloud:hover { background-color:#f8490e; background-image:url(../images/bckg/soundcloud-icon-light.png); } 
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-device-pixel-ratio: 1.5) {
