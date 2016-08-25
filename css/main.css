@@ -17,11 +17,12 @@ body, h1, h2, h3, h4, h5, h6 {
 .intro-header {
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	/*padding-bottom: 50px;*/
-	color: #f8f8f8;
-	background: url(../img/seattle_1.jpg) no-repeat center center fixed;
+	color: black;
+	background: url(../img/oregon.jpg) no-repeat center center fixed;
 	background-size: cover;
 	text-align: center;
 	background-position: 0px 0px;
+	height: 100%;
 }
 
 .h1{
@@ -50,6 +51,7 @@ body, h1, h2, h3, h4, h5, h6 {
 	-ms-filter: grayscale(0.5);
     filter: alpha(opacity=40); /* msie */
     background-color: #C0C0C0;
+		height: 100%;
 }
 
 .intro-message {
@@ -158,7 +160,7 @@ body, h1, h2, h3, h4, h5, h6 {
 	ul.banner-social-buttons {
 		float: left;
 		margin-top: 15px;
-	}	
+	}
 }
 
 @media (max-width: 767px) {
@@ -176,7 +178,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 	ul.banner-social-buttons > li:last-child {
 		margin-bottom: 0;
-	}	
+	}
 }
 
 /*footer {
@@ -191,7 +193,7 @@ p.copyright {
 
 /* Social */
 .social { text-shadow:none; }
-.social li a { color:#fff; border-top: 1px solid rgba(0, 0, 0, .1); width:60px;}
+.social li a { color:black; border-top: 1px solid rgba(0, 0, 0, .1); width:60px;}
 
 @font-face { font-family: 'JustVectorRegular'; font-weight: normal; font-style: normal;
     src: url('fonts/justvector/justvector-webfont.eot');
@@ -207,11 +209,7 @@ p.copyright {
 .social li a.linkedin:hover { background-color:#2089b5; width:60px;}
 .social li a.google:hover { background-color:#c63d2d; width:60px;}
 .social li a.instagram:hover { background-color:#663A2D; width:60px;}
-.social li a.github:hover { background-color: #000; width:60px;}
+.social li a.github:hover { background-color: #E0E0E0; width:60px;}
 .social li a.instagram:hover { background-color:#663A2D; width:60px;}
 .social li a.facebook:hover { background-color:#3c5fac; width:60px;}
 .social li a.twitter:hover { background-color:#5ec3df; width:60px;}
-
-
-
-
