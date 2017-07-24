@@ -226,7 +226,8 @@ footer {
 }
 
 .social li a:hover { 
-  background-color:#9E9E9E; 
+  background-color:#9E9E9E;
+  border-radius: 50%;
 }
 
 .mdl-list__item-avatar, .mdl-list__item-avatar.material-icons {
