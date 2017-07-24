@@ -1,6 +1,6 @@
 .portfolio-header {
   position: relative;
-  /* background-image: url(../img/oregon.jpg); */
+   background-image: url(../img/header-bg.jpg); 
 } 
 
 .portfolio-header .mdl-layout__header-row {
@@ -16,8 +16,13 @@
   font-weight: 300;
 }
 
-.is-compact .mdl-layout__title span {
+.is-compact .mdl-layout__title div {
   display: none;
+}
+
+.is-compact .mdl-layout__title span {
+  font-size: 36px;
+  border: 2px solid #E91E63;
 }
 
 .portfolio-logo-row {
@@ -243,4 +248,14 @@ footer {
 
 .mdl-card__supporting-text ul {
   padding-left: 16px;
+}
+
+.mdl-layout__title span{
+  border-radius: 10px;
+  border: 3px solid #E91E63;
+  cursor: pointer;
+}
+
+.mdl-navigation__link:hover {
+    background-color: rgba(0, 0, 0, 0.09);
 }
