@@ -111,6 +111,9 @@
 img.article-image {
   width: 100%;
   height: auto;
+}
+
+.wide {
   max-height: 300px;
 }
 
@@ -226,8 +229,7 @@ footer {
 }
 
 .social li a:hover { 
-  background-color:#9E9E9E;
-  border-radius: 50%;
+  background-color:#9E9E9E; 
 }
 
 .mdl-list__item-avatar, .mdl-list__item-avatar.material-icons {
